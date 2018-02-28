@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Build">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="MeshManager">
+      <UniqueIdentifier>{d99ff047-6dbe-4eb3-a951-ad4cb7e44842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshManager\Interface">
+      <UniqueIdentifier>{e4783eca-35ae-43aa-9ffd-05625f30e8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshManager\Implementation">
+      <UniqueIdentifier>{caf21708-5360-44c3-9299-4c181b3459ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Build</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Build</Filter>
+    </ClInclude>
+    <ClInclude Include="IMeshManager.h">
+      <Filter>MeshManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshType.h">
+      <Filter>MeshManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxManager.h">
+      <Filter>MeshManager\Implementation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Build</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxManager.cpp">
+      <Filter>MeshManager\Implementation</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
